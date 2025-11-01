@@ -272,13 +272,14 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     className="w-full max-w-4xl mt-16 border border-gray-800 rounded-2xl overflow-hidden"
   >
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14666.546033015344!2d85.818!3d20.296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7e2b17b8a01%3A0xb55ad4e42b2d3e29!2sBhubaneswar!5e0!3m2!1sen!2sin!4v1691234567890"
-      width="100%"
-      height="300"
-      allowFullScreen=""
-      loading="lazy"
-      className="border-0"
-    ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14666.546033015344!2d85.818!3d20.296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7e2b17b8a01%3A0xb55ad4e42b2d3e29!2sBhubaneswar!5e0!3m2!1sen!2sin!4v1691234567890"
+  width="100%"
+  height="300"
+  allowFullScreen
+  loading="lazy"
+  className="border-0"
+/>
+
   </motion.div>
 </section>
 {/* Footer Section */}
@@ -319,7 +320,7 @@ className="w-full bg-black border-t border-gray-800 text-gray-400 py-10 px-6 mt-
       WhatsApp
     </a>
     <a
-      href="tel:+919876543210"
+      href="tel:+919114116168"
       className="hover:text-blue-500 transition-all"
     >
       Call Now
