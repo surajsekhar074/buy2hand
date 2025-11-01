@@ -33,7 +33,7 @@ const OfferBanner = () => {
         </p>
 
         <motion.a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919114116168"
           target="_blank"
           whileHover={{ scale: 1.1 }}
           className="inline-flex items-center gap-2 bg-yellow-400 text-black font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-300 transition-all"

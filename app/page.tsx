@@ -4,7 +4,7 @@ import Testimonials from "@/components/Testimonials";
 import OfferBanner from "../components/OfferBanner";
 import FloatingButtons from "../components/FloatingButtons";
 import VideoSection from "../components/VideoSection";
-import ParticlesBackground from "@/components/ParticlesBackground";
+
 
 
 
