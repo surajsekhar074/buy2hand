@@ -18,7 +18,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center py-5 px-6 border-b border-gray-800 fixed top-0 bg-[#0a0a0a]/90 backdrop-blur-md z-50">
         <h1 className="text-2xl font-bold tracking-wide">
-          Buy<span className="text-red-500">2</span>Hand
+          Buy<span className="text-orange-500">2</span>Hand
         </h1>
         <button
   onClick={() =>
@@ -26,7 +26,7 @@ export default function Home() {
       .getElementById("contact")
       ?.scrollIntoView({ behavior: "smooth" })
   }
-  className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-xl font-semibold text-sm transition-all"
+  className="px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-xl font-semibold text-sm transition-all"
 >
   Contact Us
 </button>
@@ -40,7 +40,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-5xl md:text-6xl font-extrabold mb-2"
         >
-          Buy<span className="text-red-500"> 2 </span>Hand
+          Buy<span className="text-orange-500"> 2 </span>Hand
         </motion.h1>
 
         <motion.p
@@ -70,7 +70,7 @@ export default function Home() {
       .getElementById("about")
       ?.scrollIntoView({ behavior: "smooth" })
   }
-  className="mt-8 px-6 py-3 bg-red-600 hover:bg-red-700 rounded-xl font-semibold text-lg transition-all"
+  className="mt-8 px-6 py-3 bg-orange-600 hover:bg-orange-700 rounded-xl font-semibold text-lg transition-all"
 >
   Explore More
 </motion.button>
