@@ -14,8 +14,10 @@ import VideoSection from "../components/VideoSection";
 
 export default function Home() {
   return (
+    
     <main className="min-h-screen bg-[#0a0a0a] text-white flex flex-col items-center justify-center px-6">
       {/* Navbar */}
+      
       <nav className="w-full flex justify-between items-center py-5 px-6 border-b border-gray-800 fixed top-0 bg-[#0a0a0a]/90 backdrop-blur-md z-50">
         <h1 className="text-2xl font-bold tracking-wide">
           Buy<span className="text-orange-500">2</span>Hand
@@ -31,6 +33,7 @@ export default function Home() {
   Contact Us
 </button>
       </nav>
+      
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center mt-20">
@@ -88,7 +91,7 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     viewport={{ once: true }}
     className="text-4xl md:text-5xl font-bold text-center mb-10"
   >
-    About <span className="text-red-500">Us</span>
+    About <span className="text-orange-500">Us</span>
   </motion.h2>
 
   <motion.p
@@ -98,7 +101,7 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     viewport={{ once: true }}
     className="max-w-3xl text-center text-gray-400 text-lg leading-relaxed"
   >
-    At <span className="text-red-500 font-semibold">Buy 2 Hand</span>, we believe in giving every phone a
+    At <span className="text-orange-500 font-semibold">Buy 2 Hand</span>, we believe in giving every phone a
     second life. We offer high-quality, pre-owned smartphones at unbeatable prices,
     with a <span className="text-white font-semibold">4-month warranty</span> and a
     <span className="text-white font-semibold"> 15-day cash return policy</span>.
@@ -113,24 +116,24 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     className="grid md:grid-cols-3 gap-6 mt-14 w-full max-w-5xl"
   >
     {/* Card 1 */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">Best Price Guarantee</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">Best Price Guarantee</h3>
       <p className="text-gray-400 text-sm">
         Get premium smartphones at the most affordable prices in the market.
       </p>
     </div>
 
     {/* Card 2 */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">4-Month Warranty</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">4-Month Warranty</h3>
       <p className="text-gray-400 text-sm">
         Every phone is tested and comes with a warranty for your peace of mind.
       </p>
     </div>
 
     {/* Card 3 */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">15-Day Return Policy</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">15-Day Return Policy</h3>
       <p className="text-gray-400 text-sm">
         Didn’t like your device? Return it within 15 days — no questions asked.
       </p>
@@ -152,7 +155,7 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     viewport={{ once: true }}
     className="text-4xl md:text-5xl font-bold text-center mb-10"
   >
-    Our <span className="text-red-500">Collection</span>
+    Our <span className="text-orange-500">Collection</span>
   </motion.h2>
 
   <motion.div
@@ -206,7 +209,7 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     viewport={{ once: true }}
     className="text-4xl md:text-5xl font-bold text-center mb-10"
   >
-    Visit <span className="text-red-500">Us</span>
+    Visit <span className="text-orange-500">Us</span>
   </motion.h2>
 
   <motion.p
@@ -228,16 +231,16 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     className="grid md:grid-cols-3 gap-6 max-w-5xl w-full"
   >
     {/* Card – Address */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">Our Location</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">Our Location</h3>
       <p className="text-gray-400 text-sm">
         Main Shop, Lane 11, Bapuji Nagar, Near Durga Mandir, Bhubaneswar – 751008, Odisha
       </p>
     </div>
 
     {/* Card – Call */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">Call Us</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">Call Us</h3>
       <p className="text-gray-400 text-sm">
         📞 +91 91141 16168
         
@@ -249,8 +252,8 @@ className="w-full bg-[#0e0e0e] py-20 px-6 flex flex-col items-center">
     </div>
 
     {/* Card – WhatsApp */}
-    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-red-500 transition-all">
-      <h3 className="text-xl font-semibold mb-2 text-red-500">WhatsApp Channel</h3>
+    <div className="bg-[#141414] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 transition-all">
+      <h3 className="text-xl font-semibold mb-2 text-orange-500">WhatsApp Channel</h3>
       <a
         href="https://whatsapp.com/channel/0029VaAeHqe9Bb669GoLqX0J
 "
@@ -292,13 +295,13 @@ className="w-full bg-black border-t border-gray-800 text-gray-400 py-10 px-6 mt-
     whileInView={{ opacity: 1 }}
     whileHover={{ scale: 1.1 }}
     onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-    className="absolute right-6 top-6 bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg text-sm font-semibold"
+    className="absolute right-6 top-6 bg-orange-600 hover:bg-orange-700 text-white px-3 py-2 rounded-lg text-sm font-semibold"
   >
     ↑ Top
   </motion.button>
 
   <h2 className="text-2xl font-bold mb-2">
-    Buy<span className="text-red-500">2</span>Hand
+    Buy<span className="text-orange-500">2</span>Hand
   </h2>
   <p className="text-sm mb-4">(A Unit of Laxmi Mobile)</p>
 

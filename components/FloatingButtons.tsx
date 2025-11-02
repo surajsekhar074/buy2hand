@@ -7,7 +7,7 @@ const FloatingButtons = () => {
     <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
       {/* WhatsApp Button */}
       <motion.a
-        href="https://wa.me/919876543210" // 👉 yahan apna WhatsApp number daalna (with country code)
+        href="https://wa.me/+9114116168" // 👉 yahan apna WhatsApp number daalna (with country code)
         target="_blank"
         rel="noopener noreferrer"
         initial={{ scale: 0 }}
@@ -20,11 +20,11 @@ const FloatingButtons = () => {
 
       {/* Call Button */}
       <motion.a
-        href="tel:+919876543210" // 👉 yahan apna calling number daalna
+        href="tel:+919556970609" // 👉 yahan apna calling number daalna
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="bg-red-600 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform"
+        className="bg-orange-600 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform"
       >
         <FaPhoneAlt size={22} />
       </motion.a>
