@@ -8,7 +8,9 @@ import gsap from "gsap";
 
 // 🧱 Auto-normalized iPhone Component
 function IPhoneModel({ path, position, rotation }: any) {
-  const { scene } = useGLTF(path);
+  const gltf = useGLTF(path);
+const scene = Array.isArray(gltf) ? gltf[0].scene : gltf.scene;
+
   const ref = useRef<THREE.Group>(null);
 
   useEffect(() => {
