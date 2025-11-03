@@ -26,11 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} <body className="text-white bg-[#000] overflow-x-hidden relative">
-`}
+        className={`${geistSans.variable} ${geistMono.variable} text-white bg-[#000] overflow-x-hidden relative`}
       >
         {/* Background animation behind everything */}
-        <AnimatedBackground />
+        
 
         {/* All page content above animation */}
         <main className="relative z-10">{children}</main>
