@@ -21,7 +21,7 @@ const scene = Array.isArray(gltf) ? gltf[0].scene : gltf.scene;
     const box = new THREE.Box3().setFromObject(model);
     const size = new THREE.Vector3();
     box.getSize(size);
-    const scaleFactor = 3.7 / size.y; // target height
+    const scaleFactor = 3.5 / size.y; // target height
 
     model.scale.setScalar(scaleFactor);
     model.position.set(position[0], position[1], position[2]);
@@ -107,7 +107,7 @@ export default function Hero3D() {
 
       {/* 📱 Floating iPhones - Desktop & Mobile Optimized */}
       <div
-        className="w-full mt-10 md:mt-0 md:absolute md:right-[5%] md:top-[25%] md:w-[45%] h-[45vh] md:h-[55vh] hero-glass flex justify-center items-center"
+        className="w-full mt-7 md:mt-0 md:absolute md:right-[5%] md:top-[21%] md:w-[45%] h-[45vh] md:h-[55vh] hero-glass flex justify-center items-center"
       >
         <Canvas camera={{ position: [0, 0, 7], fov: 55 }}>
           <ambientLight intensity={1.2} />
